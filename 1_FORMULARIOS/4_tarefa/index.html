@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Básico</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="text">Nome:</label>
+            <input type="text" id="text" placeholder="Digite seu nome" required>
+        </div>
+
+        <div>
+            <label for="color">Selecione sua cor favorita:</label>
+            <input type="color" id="color" placeholder="Selecione sua cor favorita" required>
+        </div>
+
+        <div>
+            <label for="email">Escreva o seu email:</label>
+            <input type="email" id="email" placeholder="Digite seu email" required>
+        </div>
+
+        <div>
+            <label for="time">Coloque a hora atual:</label>
+            <input type="time" id="time" placeholder="Coloque a hora" required>
+        </div>
+
+        <div>
+            <input type="radio"
+                   id="Netflix"
+                   name="marca"
+                   value="Netflix">
+            <label for="Netflix">Netflix</label>
+        </div>
+     
+        <div>
+            <input type="radio"
+                   id="Apple"
+                   name="marca"
+                   value="Apple">
+            <label for="Apple">Apple</label>
+        </div>
+     
+        <div>
+            <input type="radio"
+                   id="Samsung"
+                   name="marca"
+                   value="Samsung"
+            <label for="Samsung">Samsung</label>
+        </div>
+
+        <div>
+            <input type="radio"
+                   id="Globo"
+                   name="marca"
+                   value="Globo"
+            <label for="Globo">Globo</label>
+        </div>
+
+        <label for="carro">Escolha um carro:</label>
+
+            <select name="carro" id="carro">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Ford</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
