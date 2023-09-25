@@ -1,0 +1,31 @@
+div {
+    border: 1px dotted black;
+    width: fit-content;
+    font-size: 20px;
+
+    /* padding-top: 5px ;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px; */
+
+    /* shorthand */
+    /* 1 valor = mesmo valor para todos os lados  */
+    padding: 5px;
+
+    /* 2 valores = primeiro top e bottom, segundo right e left */
+    padding: 5px 10px;
+
+    /* 3 valores = primeiro top, segundo right e left e terceiro bottom  */
+    padding: 5px 10px 10px;
+
+    /* 4 valores = primeiro top, segundo right, terceiro bottom e quarto left */
+    padding: 5px 10px 5px 10px;
+
+    /* propriedades extras */
+
+    padding-inline: 5px ;
+    /* padding na horizontal */
+
+    padding-block: 5px
+    /* padding na vertical; */
+}
